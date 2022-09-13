@@ -34,7 +34,7 @@ jobs:
           python3 clock-in.py ${ACCOUNT1} ${PASSWORD1} 
       - name: Clock In3
         env:
-          ACCOUNT1: ${{ secrets.ACCOUNT1 }}
-          PASSWORD1: ${{ secrets.PASSWORD1 }}
+          ACCOUNT1: ${{ secrets.ACCOUNT2 }}
+          PASSWORD1: ${{ secrets.PASSWORD2 }}
         run: |
           python3 clock-in.py ${ACCOUNT1} ${PASSWORD1}   
